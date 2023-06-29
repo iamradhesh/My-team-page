@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    width: min(90%, 120rem);
+    margin: 0 auto;
+
+    position: absolute;
+
+  
+  
+}
+
+.cover{
+   
+    width: 100%;
+
+    position: sticky;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    
+
+}
+
+.cover-title{
+    color: #000;
+    font-size: 36px;
+    font-family: PT Serif;
+    font-weight: 700;
+    letter-spacing: -1.62px;
+}
+
+.cover-group{
+    display: flex;
+width: 439px;
+height: 87px;
+flex-direction: column;
+flex-shrink: 0;
+}
+
+.cover-subtitle{
+    color: #000;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 600;
+text-transform: uppercase;
+
+}
+
+.cover-para{
+    color: #000;
+font-size: 18px;
+font-family: Poppins;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    column-gap: 2.5rem;
+    row-gap: 1.5rem;
+    justify-content: center;
+}
+
+.card-images1{
+    font-size: .8rem;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    margin-top: 5rem;
+    
+}
+
+.card-image{
+    padding-right: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    column-gap: 2rem;
+    gap: 1rem;
+
+    
+
+}
+
+.image1,.image3,.image4,.image6{
+    width: 238px;
+    height: 426.496px;
+    flex-shrink: 0;
+    margin-right: 20px;
+   
+    background:  lightgray 50% / cover no-repeat;
+    
+}
+
+.caption{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.title1,.title3,.title4,.title6{
+    writing-mode: vertical-lr;
+    position: absolute;
+    font-size: .7rem;
+   margin-left: 15rem;
+
+   color: #000;
+font-size: 12px;
+font-family: PT Serif;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+    
+}
+
+.title2,.title5{
+    writing-mode: vertical-lr;
+    position: absolute;
+    font-size: .7rem;
+   margin-left: 19rem;
+   margin-top:4rem;
+
+   color: #000;
+font-size: 12px;
+font-family: PT Serif;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.card-images2{
+
+    font-size: .8rem;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    margin-top: 5rem;
+}
+
+.image2,.image5{
+    width: 305.213px;
+height: 471px;
+flex-shrink: 0;
+
+margin-top: 4rem;
+}
+
+.foot p{
+    color: #A9A9A9;
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+

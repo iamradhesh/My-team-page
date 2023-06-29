@@ -1,95 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="devchallenges.png" />
 
-    <link rel="icon" href="devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <main class="main">
+    
+      <section class="cover">
+        
+          <h1 class="cover-title">The creative crew</h1>
+          <div class="cover-group">
+            <h2 class="cover-subtitle">
+              Who we are
+            </h2>
+            <p class="cover-para">
+              We are team of creatively diverse.  driven.  innovative individuals working in various locations from the world.
+            </p>
+          </div>
+        
+      </section>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+      <!--Cards-->
+      <section class="cards-container">
+        
+          
 
-    <title>Devchallenges</title>
+            <div class="card-image">
+              <div class="card-innerbox">
+                <img src="photo1.png" alt="photo1" class="image1">
+                <span class="title">
+                  <p class="para">Product owner</p>
+                </span>
+              </div>
+              
+              <figcaption class="caption">
+                Bill Mahoney
+              </figcaption>
+             
+            </div>
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
+            <div class="card-image">
+              <div class="card-innerbox">
+                <img src="photo2.png" alt="photo2" class="image2">
+                <span class="title">
+                  <p class="para">Art director</p>
+                </span>
+              </div>
+              
+              <figcaption class="caption">
+                Saba Cabrera
+              </figcaption>
+             
+            </div>
+            <div class="card-image">
+              <div class="card-innerbox">
+                <img src="photo3.png" alt="photo3" class="image3">
+                <span class="title">
+                  <p class="para">Tech Lead</p>
+                </span>
+              </div>
+              
+              <figcaption class="caption">
+                Shae Le
+              </figcaption>
+             
+            </div>
 
-      ul {
-        padding-left: 24px;
-      }
+            <div class="card-image">
+              <div class="card-innerbox">
+                <img src="photo4.png" alt="photo4" class="image4">
+                <span class="title">
+                  <p class="para">UX Designer</p>
+                </span>
+              </div>
+              
+              <figcaption class="caption">
+                Skylah Lu
+              </figcaption>
+             
+            </div>
 
-      li {
-        margin-bottom: 8px;
-      }
+            <div class="card-image">
+              <div class="card-innerbox">
+                <img src="photo5.png" alt="photo5" class="image5">
+                <span class="title">
+                  <p class="para">Developer</p>
+                </span>
+              </div>
+              
+              <figcaption class="caption">
+                Griff Richards
+              </figcaption>
+             
+            </div>
 
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
+            <div class="card-image">
+              <div class="card-innerbox">
+                <img src="photo6.png" alt="photo6" class="image6">
+                <span class="title">
+                  <p class="para">DEverloper</p>
+                </span>
+              </div>
+              
+              <figcaption class="caption">
+                Stan John
+              </figcaption>
+             
+            </div>
+          
 
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
+          
 
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
+         
 
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
+         
+        <!--  <div class="card-images2">
+            <div class="card-image">
+              <img src="photo4.png" alt="photo4" class="image4">
+              <figcaption class="caption">
+                Skylah Lu 
+              </figcaption>
+              <div class="title4">
+                <p>UX Designer</p>
+              </div>
+            </div>
 
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+            <div class="card-image">
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
+              <div class="title5">
+                <p>Developer</p>
+              </div>
+              <img src="photo5.png" alt="photo5" class="image5">
+              <figcaption class="caption">
+                 Griff Richards
+              </figcaption>
+              
+            </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
-  </body>
+            <div class="card-image">
+              <img src="photo6.png" alt="photo6" class="image6">
+              <figcaption class="caption">
+                  Stan John
+              </figcaption>
+              <div class="title6">
+                <p>Developer</p>
+              </div>
+            </div>
+
+
+            
+          </div>   -->     
+         
+
+          
+      </section>
+      <!--Footer-->
+      <footer class="foot">
+        <p>created by username - <a href="https://github.com/iamradhesh/My-team-page">Radhesh Pandey</a></p>
+      </footer>
+    
+     
+    
+  </main>
+</body>
 </html>
